@@ -1,0 +1,11 @@
+1: touch .gitignore
+1(a): git config --global user.name "Pappu Singh Kushwaha"
+1(b): git config --global user.email "pappu8051941068@gmail.com"
+2: git init(initialise git reposetory)
+3: git add . (add all files in stagging area  except file store in git ignore and .git file because it store all content)
+
+4: git commit -m "Initial Commit"
+5: git status # just to see working directory is clean or not. using command: ssh-keygen -t rsa -b 4096 -C "pappu8051941068@gmail.com"
+6: tail <path to id_rsa.pub> # Add this key to your Githhub account
+7: git remote add origin <ssh url.git>
+8: git push origin master
